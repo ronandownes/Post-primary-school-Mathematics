@@ -59,7 +59,7 @@
 {\begin{tikzpicture}[remember picture,overlay]
 \node[anchor=north west,inner sep=0pt] at (0,0) {\includegraphics[width=\paperwidth]{background}}; % Background image
 \draw[anchor=north] (midpoint) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Post-primary school Mathematics \\[15pt] % Book title
-{\Large An  interactive, online,  modern system of learning}\\[20pt] % Subtitle
+{\Large Focusing on guided active learning}\\[20pt] % Subtitle
 {\huge Mr Ronan Downes}}}; % Author name
 \end{tikzpicture}};
 \end{tikzpicture}
@@ -110,54 +110,10 @@
 %	CHAPTER 1
 %----------------------------------------------------------------------------------------
 
-\chapterimage{chapter_head_2.pdf} % Chapter heading image
-
-\chapter{Text Chapter}
-
-\section{Paragraphs of Text}\index{Paragraphs of Text}
-
-\lipsum[1-7] % Dummy text
-
-%------------------------------------------------
-
-\section{Citation}\index{Citation}
-
-This statement requires citation \cite{book_key}; this one is more specific \cite[122]{article_key}.
-
-%------------------------------------------------
-
-\section{Lists}\index{Lists}
-
-Lists are useful to present information in a concise and/or ordered way\footnote{Footnote example...}.
-
-\subsection{Numbered List}\index{Lists!Numbered List}
-
-\begin{enumerate}
-\item The first item
-\item The second item
-\item The third item
-\end{enumerate}
-
-\subsection{Bullet Points}\index{Lists!Bullet Points}
-
-\begin{itemize}
-\item The first item
-\item The second item
-\item The third item
-\end{itemize}
-
-\subsection{Descriptions and Definitions}\index{Lists!Descriptions and Definitions}
-
-\begin{description}
-\item[Name] Description
-\item[Word] Definition
-\item[Comment] Elaboration
-\end{description}
-
 %----------------------------------------------------------------------------------------
 %	CHAPTER 2
 %----------------------------------------------------------------------------------------
-
+\include{Chapters/NumChaps/NumberChapter1}
 \chapter{In-text Elements}
 
 \section{Theorems}\index{Theorems}
@@ -307,7 +263,7 @@ Definition of word.
 %	PART
 %----------------------------------------------------------------------------------------
 
-\part{Part Two}
+\part{Algebra}
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 3
@@ -315,8 +271,13 @@ Definition of word.
 
 \chapterimage{chapter_head_1.pdf} % Chapter heading image
 
-\chapter{Presenting Information}
-
+\chapter{Variables, numbers and mathematical models}
+Algebra can help us to predict
+\begin{itemise}
+\item The rising incidence of COVID-19 positive cases
+\item 
+\end{itemise}
+\section{}
 \section{Table}\index{Table}
 
 \begin{table}[h]
